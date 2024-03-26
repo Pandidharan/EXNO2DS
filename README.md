@@ -116,15 +116,5 @@ sns.catplot(data=dt,col="Survived",x="Gender",hue="Pclass",kind="count")
 ```
 ![311100863-633922ee-abf2-400f-bd54-1e6d0533467e](https://github.com/Kowsalyasathya/EXNO2DS/assets/118671457/41251fb2-4f65-4796-ac6c-0f1a442ccab1)
 
-### Co-relation:
-```
-corr = dt.corr()
-sns.heatmap(corr,annot=True)
-```
-![311100915-b567f5df-36f7-4dd0-9948-248e116c1514](https://github.com/Kowsalyasathya/EXNO2DS/assets/118671457/2d54d3ac-54b0-4105-a47b-07182aaa0cdf)
-```
-sns.pairplot(dt)
-```
-![311100952-fff650c4-8ab7-4bbd-b4d9-043659f1a7fe](https://github.com/Kowsalyasathya/EXNO2DS/assets/118671457/a2cd8a57-c7d7-4ee4-82c6-a4ab27f32549)
 # RESULT
 Thus the Exploratory Data Analysis process is performed successfully on the given data using python code.
