@@ -24,19 +24,19 @@ STEP 8: Use heatmap method of representation to show relationships between two v
 
 ## CODING AND OUTPUT
 ### Exploratory data analysis:
-        <<import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-dt=pd.read_csv("/content/titanic_dataset.csv")
-dt>>
+          import pandas as pd
+          import numpy as np
+          import matplotlib.pyplot as plt
+          import seaborn as sns
+          dt=pd.read_csv("/content/titanic_dataset.csv")
+          dt
 ![image](https://github.com/Pandidharan/EXNO2DS/assets/118343569/0a395cca-fb18-43a3-8a3c-a2cebbb7bd62)
-       <<dt.info()>>
+          dt.info()
 ![image](https://github.com/Pandidharan/EXNO2DS/assets/118343569/84c58eff-0ed0-4e6e-98bf-e3df414d3285)
-       <<dt.shape>>
+          dt.shape
 ![image](https://github.com/Pandidharan/EXNO2DS/assets/118343569/fba476b9-f6b0-4547-a3fc-bf9ea28a9fd9)
-       <<dt.set_index("PassengerId",inplace=True)
-dt.describe()>>
+          dt.set_index("PassengerId",inplace=True)
+          dt.describe()
 ![image](https://github.com/Pandidharan/EXNO2DS/assets/118343569/e9c7ae20-cf61-43eb-ae8a-2247e313ba6a)
 
 
